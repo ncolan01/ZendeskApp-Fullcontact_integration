@@ -1,1 +1,3 @@
-<div class="loadingPage">{{t "loadingPage"}}</div>
+<div class="container">
+	<button class="mybutton btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>{{t "loadingPage"}}</button>
+</div>

@@ -27,8 +27,8 @@
 //   }, 
 
   "loadingPage": {
-    "value": "App is loading, please wait...",
-    "title": "App is loading, please wait..."
+    "value": "Loading, pelase wait...",
+    "title": "Loading, pelase wait..."
   },
 
   "errorPage": {
