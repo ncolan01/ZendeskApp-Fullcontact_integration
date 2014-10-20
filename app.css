@@ -1,0 +1,44 @@
+apps header{
+
+	border: none; 
+}
+
+.mainPic {
+
+	float: right;
+	border: 1px solid green; 
+	padding: 5px; 
+
+}
+
+table {
+
+	width: 80%; 
+	border: 3px solid green;
+	text-align: left;
+
+
+}
+
+
+
+th, td {
+
+	padding: 10px;
+
+}
+
+
+.socialProfiles th {
+
+
+	 font-size: 15px; 
+
+}
+
+.socialProfiles a {
+ 
+	font-size: 90%; 
+}
+
+

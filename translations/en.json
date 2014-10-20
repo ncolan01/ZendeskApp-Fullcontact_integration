@@ -1,0 +1,76 @@
+{
+  "app": {
+    "package": "fullcontact_integrations_app",
+    "description": {
+      "value": "This app integrates retries and displays contacts details from fullcontact",
+      "title": "Fullcontact integration app"
+    },
+    "name": {
+      "value": "Fullcontact integration",
+      "title": "Fullcontact integration"
+    }
+  }, 
+
+// "parameters":{
+//         "api_key": {
+//           "label": {
+//             "title":"API key", 
+//             "value": "Enter your API key"
+
+
+//           }
+
+
+//         }
+
+
+//   }, 
+
+  "loadingPage": {
+    "value": "App is loading, please wait...",
+    "title": "App is loading, please wait..."
+  },
+
+  "errorPage": {
+    "value": "Sorry, we could not find a match for your contact.", 
+    "title": "Sorry, we could not find a match for your contact"
+
+  },
+
+  "fetch": {
+    "done": {
+      "value": "Good",
+      "title": "fetch success"
+    },
+
+    "fail": {
+      "value": "failed to fecth information from the server",
+      "title": "fetch failure"
+    }
+  },
+
+  "id": {
+    "value": "ID",
+    "title": "user id"
+  },
+
+  "email": {
+    "value": "Email",
+    "title": "user email"
+  },
+
+  "name": {
+    "value": "Name",
+    "title": "user name"
+  },
+
+  "role": {
+    "value": "Role",
+    "title": "user role"
+  },
+
+  "groups": {
+    "value": "Groups",
+    "title": "user groups"
+  }
+}

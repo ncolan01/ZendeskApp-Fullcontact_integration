@@ -1,0 +1,16 @@
+<header>
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main/>
+<footer>
+  <a href="#">
+  	Report a bug
+  </a>
+  <br/>
+  <hr>
+  <p>Designed by: </p>
+  <a href="mailto:{{author.email}}">
+    {{author.name}}
+  </a>
+</footer>

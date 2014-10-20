@@ -1,0 +1,72 @@
+{{#if photoUrl}}
+<img class="mainPic" src="{{photoUrl}}" width="42" height="42">
+{{/if}}
+<table class="contactInfo">
+	<tr>
+		{{#if fullname}}
+		<th>
+		Full Name
+		</th>
+		<td>
+		{{fullname}}
+		</td>
+		{{/if}}
+	</tr>
+	<tr>
+		{{#if organization}}
+		<th>
+		Organization
+		</th>
+		<td>
+		{{organization}}
+		</td>
+	</tr>
+	<tr>
+		<th>
+		Title
+		</th>
+		<td>
+		{{orgTitle}}
+		</td>
+	</tr>
+	{{/if}}
+</table>
+<br/>
+<br/>
+<table class="socialProfiles">
+<tr>
+	<th>Social Media Profiles</th>
+</tr>
+{{#if facebookLink}}
+<tr>
+	<td>
+		<p>Facebook</p><br/>
+	    <a id="htmlFacebookLink" href="{{facebookLink}}">{{facebookLink}}</a>
+	</td>
+</tr>
+{{/if}}
+{{#if twitterLink}}
+<tr>
+	<td>
+		<p>Twitter</p><br/>
+		<a id="htmlTwitterLink" href="{{twitterLink}}">{{twitterLink}}<a>
+	</td>
+</tr>
+{{/if}}
+{{#if linkedinLink}}
+<tr>
+	<td>
+		<p>LinkedIn</p><br/>
+		<a id="htmlLinkedinLink" href="{{linkedinLink}}">{{linkedinLink}}</a>
+	</td>
+</tr>
+{{/if}}
+{{#if foursquareLink}}
+<tr>
+	<td>
+		<p>Foursqure</p><br/>
+		<a  id="htmlfoursquareLink" href="{{foursquareLink}}">{{foursquareLink}}</a>
+	</td>
+</tr>
+{{/if}}
+</table>
