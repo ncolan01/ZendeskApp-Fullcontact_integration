@@ -11,26 +11,6 @@
     }
   }, 
 
-// "parameters":{
-//         "api_key": {
-//           "label": {
-//             "title":"API key", 
-//             "value": "Enter your API key"
-
-
-//           }
-
-
-//         }
-
-
-//   }, 
-
-  "loadingPage": {
-    "value": "Loading, pelase wait...",
-    "title": "Loading, pelase wait..."
-  },
-
   "errorPage": {
     "value": "Sorry, we could not find a match for your contact.", 
     "title": "Sorry, we could not find a match for your contact"
@@ -72,5 +52,10 @@
   "groups": {
     "value": "Groups",
     "title": "user groups"
+  }, 
+
+   "spinner": {
+    "title": "Loading text",
+    "value": "loading"
   }
 }

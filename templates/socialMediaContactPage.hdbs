@@ -1,7 +1,30 @@
 {{#if photoUrl}}
-<img class="mainPic" src="{{photoUrl}}" width="42" height="42">
+<ul class="thumbnails">
+  <li class="span1">
+    <div class="thumbnail">
+      <img src="{{photoUrl}}" alt="Profile Image">
+      <!-- <h3>Thumbnail label</h3>
+      <p>Thumbnail caption</p> -->
+    </div>
+  </li>
+</ul>
+<!-- 
+<img src="{{photoUrl}}" class="img-responsive img-circle" alt="Responsive image" > -->
 {{/if}}
-<table class="contactInfo">
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="assets/logo.png">
+  </a>
+  <div class="media-body">
+    <p class="media-heading">Media heading</p>
+    <!-- Nested media object -->
+    <div class="media">
+      <p class="media-heading">Nested Media heading</p>
+    </div>
+  </div>
+</div>
+
+<!-- <table class="contactInfo">
 	<tr>
 		{{#if fullname}}
 		<th>
@@ -69,4 +92,4 @@
 	</td>
 </tr>
 {{/if}}
-</table>
+</table> -->

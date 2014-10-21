@@ -5,7 +5,10 @@ var myData;
   return {
 
     
-    defaultState: 'loadingPage', 
+    defaultState: 'spinner',
+    defaultNumberOfEntriesToDisplay: 10,
+    
+    
 
 
     events: {

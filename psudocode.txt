@@ -1,0 +1,3 @@
+IF Zendesk primary contact IS email
+	try to match it with the primary email in Fullcontact
+	
